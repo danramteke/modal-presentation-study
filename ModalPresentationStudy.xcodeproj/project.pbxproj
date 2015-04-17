@@ -13,6 +13,7 @@
 		651032EC1AE07FF3004D7734 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651032EB1AE07FF3004D7734 /* Images.xcassets */; };
 		651032EF1AE07FF3004D7734 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651032ED1AE07FF3004D7734 /* LaunchScreen.xib */; };
 		651032FB1AE07FF3004D7734 /* ModalPresentationStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651032FA1AE07FF3004D7734 /* ModalPresentationStudyTests.swift */; };
+		651033051AE08139004D7734 /* SomeOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651033041AE08139004D7734 /* SomeOtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		651032F41AE07FF3004D7734 /* ModalPresentationStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalPresentationStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651032F91AE07FF3004D7734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		651032FA1AE07FF3004D7734 /* ModalPresentationStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationStudyTests.swift; sourceTree = "<group>"; };
+		651033041AE08139004D7734 /* SomeOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeOtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				651032E41AE07FF3004D7734 /* AppDelegate.swift */,
 				651032E61AE07FF3004D7734 /* ViewController.swift */,
+				651033041AE08139004D7734 /* SomeOtherViewController.swift */,
 				651032E81AE07FF3004D7734 /* Main.storyboard */,
 				651032EB1AE07FF3004D7734 /* Images.xcassets */,
 				651032ED1AE07FF3004D7734 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				651032E71AE07FF3004D7734 /* ViewController.swift in Sources */,
+				651033051AE08139004D7734 /* SomeOtherViewController.swift in Sources */,
 				651032E51AE07FF3004D7734 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
